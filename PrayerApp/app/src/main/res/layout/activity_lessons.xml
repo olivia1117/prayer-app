@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sage2"
+        android:orientation="vertical"
+        android:theme="@style/Theme.PrayerApp"
+        tools:context=".ReflectionSection.LessonsActivity">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:fontFamily="@font/medium_italic"
+                android:gravity="center_horizontal"
+                android:text="@string/lesson_for_you"
+                android:textColor="@color/dark_green"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/lesson_box"
+                android:layout_width="350dp"
+                android:layout_height="550dp"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textColor="@color/taupe"
+                android:fontFamily="@font/inter"
+                android:gravity="center"
+                android:background="@drawable/rounded_box"
+                 />
+
+
+
+
+    </LinearLayout>

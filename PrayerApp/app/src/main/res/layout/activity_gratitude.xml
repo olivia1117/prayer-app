@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.PrayerApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--greeting-->
+        <TextView
+            android:id="@+id/gratitude_head"
+            android:layout_width="265dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:fontFamily="@font/medium_italic"
+            android:gravity="center_horizontal|top"
+            android:text="@string/gratitude_text_box"
+            android:textColor="@color/taupe"
+            android:textSize="16sp"
+
+
+            />
+
+            <!--editable text box-->
+            <EditText
+                android:id="@+id/gratitude_textbox"
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:text="Start writing here..."
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:maxLines="20"
+                android:scrollHorizontally="false"
+                android:background="@drawable/dashed_border"/>
+
+<!--todo: implement save button -->
+        <!--todo: implement some kind of back arrow button or feature to get back to home-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <!--save button-->
+            <Button
+                android:id="@+id/save_journal"
+                android:layout_width="128dp"
+                android:layout_height="54dp"
+                android:layout_gravity="start|center"
+                android:layout_margin="50dp"
+                android:backgroundTint="@color/cognac"
+                android:fontFamily="@font/medium_italic"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/save_journal"
+                android:textColor="@color/puce"
+                android:textSize="16sp" />
+
+            <!--clear button-->
+            <Button
+                android:id="@+id/clear_journal"
+                android:layout_width="130dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center|end"
+                android:layout_margin="0dp"
+                android:backgroundTint="@color/cognac"
+                android:fontFamily="@font/medium_italic"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/clear_journal"
+                android:textColor="@color/puce"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

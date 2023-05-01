@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.PrayerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cognac</item>
+        <item name="colorPrimaryVariant">@color/cognac</item>
+        <item name="colorOnPrimary">@color/cognac</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/taupe</item>
+        <item name="colorSecondaryVariant">@color/nude</item>
+        <item name="colorOnSecondary">@color/sage1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/puce</item>
+
+    </style>
+
+
+</resources>

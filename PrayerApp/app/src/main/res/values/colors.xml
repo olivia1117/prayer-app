@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark_green">#31352E</color>
+    <color name="taupe">#E9E6E2</color>
+    <color name="cognac">#B5A4A3</color>
+    <color name="sage_green1">#535E4B</color>
+    <color name="sage1">#C1C2AD</color>
+    <color name="sage_green2">#D0CCB9</color>
+    <color name="sage2">#a7a88a</color>
+    <color name="nude">#cda67a</color>
+    <color name="puce">#474241</color>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nude">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="40dp"
+        android:text="@string/select_text"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/puce"
+        android:textSize="22sp"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bible_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="@string/bible"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/cognac"
+        android:fontFamily="@font/medium_italic">
+
+    </Button>
+
+    <Button
+        android:id="@+id/quran_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/cognac"
+        android:fontFamily="@font/medium_italic"
+        android:text="@string/quran">
+
+    </Button>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/lessons_button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/cognac"
+            android:fontFamily="@font/medium_italic"
+            android:text="@string/lessons">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="317dp"
+            android:layout_height="449dp"
+            android:layout_gravity="bottom|right"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plant_betterrr" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

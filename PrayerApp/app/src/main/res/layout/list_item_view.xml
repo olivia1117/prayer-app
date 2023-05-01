@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/puce"
+    android:orientation="vertical"
+    android:theme="@style/Theme.PrayerApp">
+
+    <TextView
+        android:id="@+id/intention_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/medium_italic"
+        tools:text="An intention date"
+        android:textColor="@color/taupe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+</LinearLayout>

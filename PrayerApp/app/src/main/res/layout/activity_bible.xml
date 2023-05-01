@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.PrayerApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sage2"
+    tools:context=".ReflectionSection.LessonsActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verse_for_you"
+            android:textSize="30sp"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/medium_italic"
+            android:layout_margin="30dp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/bible_box"
+            android:layout_width="350dp"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_box"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="@color/taupe"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sage_green1"
+    tools:context=".MeditationSection.IntentionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prayer_intentions"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/inter"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/inter"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/date_box"
+        android:layout_width="125sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/nude"
+        android:text=""
+        android:textColor="@color/taupe"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intention1"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/medium_italic"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/intention1"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/nude"
+        android:textColor="@color/taupe"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intention2"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/medium_italic"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/intention2"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/nude"
+        android:textColor="@color/taupe"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intention3"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/medium_italic"
+        android:textSize="18sp"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/intention3"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/nude"
+        android:textColor="@color/taupe"
+
+        />
+
+    <Button
+        android:id="@+id/save_intentions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/nude"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/save_intentions"
+        android:textColor="@color/taupe"
+        />
+
+
+
+
+</LinearLayout>

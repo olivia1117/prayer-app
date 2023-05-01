@@ -1,0 +1,41 @@
+<resources>
+    <!--strings for load screen-->
+    <string name="app_name">PrayerApp</string>
+
+
+    <!--strings for home screen-->
+    <string name="welcome">Welcome back</string>
+    <string name="path">Choose your prayer path</string>
+    <string name="gratitude">gratitude</string>
+    <string name="reflect">reflect</string>
+    <string name="meditate">meditate</string>
+
+    <!--strings for gratitude journal-->
+    <string name="gratitude_text_box">Here’s  a space to write about what you are thankful for today or anything else on your mind</string>
+    <string name="save_journal">Save</string>
+    <string name="clear_journal">Clear</string>
+
+    <!--strings for reflect home screen-->
+    <string name="select_text">Select a text to reflect upon...</string>
+    <string name="bible">Bible</string>
+    <string name="quran">Quran</string>
+    <string name="lessons">Lessons</string>
+
+    <!--strings for the bible verse screen-->
+    <string name="verse_for_you">Here’s a verse just for you</string>
+
+    <!--strings for the quran verse screen-->
+
+
+    <!--strings for the lessons/advice screen-->
+    <string name="lesson_for_you">Here’s a lesson just for you</string>
+
+    <!--strings for intention screen-->
+    <string name="prayer_intentions">What are your prayer intentions today?</string>
+    <string name="date">Date: </string>
+    <string name="intention1">Intention 1: </string>
+    <string name="intention2">Intention 2: </string>
+    <string name="intention3">Intention 3: </string>
+    <string name="save_intentions">save intentions</string>
+
+</resources>

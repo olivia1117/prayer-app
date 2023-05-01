@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/sage_green1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center|left"
+        android:text="@string/welcome"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/medium_italic"
+        android:textSize="36sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/path"
+        android:textColor="@color/taupe"
+        android:fontFamily="@font/medium_italic"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gratitude_button"
+            android:layout_width="320dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/nude"
+            android:textAllCaps="false"
+            android:fontFamily="@font/inter"
+            android:textSize="20sp"
+            android:textColor="@color/taupe"
+            android:text="@string/gratitude"/>
+        <Button
+            android:id="@+id/reflect_button"
+            android:layout_width="320dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/cognac"
+            android:textAllCaps="false"
+            android:fontFamily="@font/inter"
+            android:textSize="20sp"
+            android:textColor="@color/taupe"
+            android:text="@string/reflect"/>
+        <Button
+            android:id="@+id/meditate_button"
+            android:layout_width="320dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/puce"
+            android:textAllCaps="false"
+            android:fontFamily="@font/inter"
+            android:textSize="20sp"
+            android:textColor="@color/taupe"
+            android:text="@string/meditate"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
